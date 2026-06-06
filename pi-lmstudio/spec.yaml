@@ -1,6 +1,6 @@
 schemaVersion: 1
 kind: mixin
-name: lmstudio
+name: pi-lmstudio
 
 network:
   allowedDomains:
