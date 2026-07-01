@@ -6,14 +6,16 @@
       "apiKey": "key",
       "models": [
         {
-          "id": "qwen/qwen3.6-35b-a3b",
-          "contextWindow": 262144,
+          "id": "qwen3.6-35b-a3b",
+          "name": "Qwen MOE",
+          "contextWindow": 64000,
           "reasoning": true,
           "input": ["text", "image"]
         },
         {
-          "id": "qwen2.5-coder-1.5b-instruct",
-          "contextWindow": 4096
+          "id": "qwen2.5-coder-1.5b-instruct-128k",
+          "name": "Qwen code auto complete",
+          "contextWindow": 4000
         }
       ]
     }
